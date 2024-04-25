@@ -1,0 +1,28 @@
+{
+  "name": "express-testing-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "directories": {
+    "test": "./src/test"
+  },
+  "scripts": {
+    "test": "jest",
+    "devstart": "nodemon ./src/app.js",
+    "devwatch": "nodemon --inspect ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^9.2.0",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
